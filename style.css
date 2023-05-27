@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.grid-container {
+    display: flex;
+    background-color: black;
+    width: 500px;
+    height: 840px;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.grid-container__first {
+    width: 460px;
+    height: 250px;
+
+}
+.grid-container_second {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 540px;
+  width: 440px;
+  color: white;
+}
